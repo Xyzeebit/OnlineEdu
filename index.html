@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>OnlineEdu</title>
+
+    <!-- HTML -->
+
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flickity.css" media="screen" />
+    <script src="./js/flickity.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="sidebar">
+                <div class="sidebar-content">
+                    
+                    
+                    <div class="menu">
+                        <a href="#main-feature" class="mi mi-1">Main Feature</a>
+                        <a href="#popular-course" class="mi mi-2">Popular Course</a>
+                        <a href="#explore" class="mi mi-3">Explore</a>
+                        <a href="#" class="mi mi-4">Blog</a>
+                        <a href="#contact" class="mi mi-5">Contact</a>
+                    </div>
+                    <hr />
+                    <div class="menu">
+                        <a href="./account.html?login" class="mi mi-6">Login</a>
+                        <a href="./account.html?register" class="mi mi-7">Register</a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="nav-brand">
+
+                <button id="menuButton" class="menu-button">
+                    <div class="menu-line-top stop-animation"></div>
+                    <div class="menu-line-middle stop-animation"></div>
+                    <div class="menu-line-bottom stop-animation"></div>
+                </button>
+                <img src="./images/logo.png" alt="OnlineEdu Logo" />
+				<span>OnlineEdu</span>
+            </div>
+
+            <div>
+                <button id="loginButton" class="btn">
+                    LOG IN
+                </button>
+                <button id="registerButton" class="btn">
+                    REGISTER
+                </button>
+            </div>
+        </nav>
+
+
+        <div class="intro">
+            <img src="./images/bg-buttons.svg" alt="background buttons" class="bg-image" />
+            <div class="intro-content">
+                <div class="intro-content-left">
+                    <div class="intro-content-header">
+                        <span>Upgrade Yourself</span>
+                    </div>
+                    <div class="intro-content-text">
+                        Anywhere, anytime, Start learning today! and get an Exceptional Education Experience.
+                    </div>
+                    <form class="search-group">
+                        <input type="text" id="search-input" />
+                        <label for="search-input">Search course...</label>
+                        <div class="search-icon">
+                            <img src="./images/icon-search.svg" alt="search-icon" />
+                        </div>
+                    </form>
+                </div>
+                <div class="intro-content-right">
+                    <img src="./images/banner-artwork.png" alt="hands of laptop" class="banner-image" />
+                </div>
+            </div>
+        </div>
+
+
+        <div id="main-feature" class="features">
+            <h2>Main Features</h2>
+            <p>
+                The world's largest selection of courses.
+            </p>
+            <div class="courses-stats">
+                <div id="hd-videos" class="stats-info-box">
+                    <div class="stats-border">
+                        <img src="./images/hd-video.svg" alt="HD videos" />
+                        <div class="stats-thumb"></div>
+                    </div>
+                    <div class="stats">
+                        <span>+1K</span>
+                        <span>HD Videos</span>
+                    </div>
+                </div>
+                <div id="presenters" class="stats-info-box">
+                    <div class="stats-border">
+                        <img src="./images/presenter.svg" alt="HD videos" />
+                        <div class="stats-thumb"></div>
+                    </div>
+                    <div class="stats">
+                        <span>+0</span>
+                        <span>Professional Mentors</span>
+                    </div>
+                </div>
+                <div id="money" class="stats-info-box">
+                    <div class="stats-border">
+                        <img src="./images/money.svg" alt="HD videos" />
+                        <div class="stats-thumb"></div>
+                    </div>
+                    <div class="stats">
+                        <span>$0</span>
+                        <span>Saves per Month</span>
+                    </div>
+                </div>
+                <div id="free" class="stats-info-box">
+                    <div class="stats-border">
+                        <img src="./images/unlimited.svg" alt="HD videos" />
+                        <div class="stats-thumb"></div>
+                    </div>
+                    <div class="stats">
+                        <span id="free-text">Free</span>
+                        <span>Life Time Access</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="popular-course" class="popular">
+            <div class="popular-description">
+                <h2>P<span>opular Courses</span></h2>
+                <p>
+                    Choose from many options of popular
+                    courses at breakthrough price.
+                </p>
+            </div>
+            <div class="popular-list">
+
+                <div class="course-option">
+                    <img src="./images/design_mfqgit.jpg" alt="explore design" />
+                    <h3>Vivamus sit amet</h3>
+                    <p>
+                        Vivamus a tellus. Pellentesque
+                        habitant morbi tristique senectus et netus et.
+                    </p>
+                    <div class="ratings-pricing">
+                        <div class="ratings">
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                        </div>
+                        <div class="price">
+                            $50
+                        </div>
+                    </div>
+                    <a href="#" class="btn explore-button">EXPLORE</a>
+                </div>
+
+                <div class="course-option">
+                    <img src="./images/cook_bsillr.jpg" alt="explore cooking" />
+                    <h3>Vivamus sit amet</h3>
+                    <p>
+                        Vivamus a tellus. Pellentesque
+                        habitant morbi tristique senectus et netus et.
+                    </p>
+                    <div class="ratings-pricing">
+                        <div class="ratings">
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                        </div>
+                        <div class="price">
+                            $10
+                        </div>
+                    </div>
+                    <a href="#" class="btn explore-button">EXPLORE</a>
+                </div>
+
+                <div class="course-option">
+                    <img src="./images/music_nmw3mb.jpg" alt="explore music" />
+                    <h3>Vivamus sit amet</h3>
+                    <p>
+                        Vivamus a tellus. Pellentesque
+                        habitant morbi tristique senectus et netus et.
+                    </p>
+                    <div class="ratings-pricing">
+                        <div class="ratings">
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                        </div>
+                        <div class="price">
+                            $50
+                        </div>
+                    </div>
+                    <a href="#" class="btn explore-button">EXPLORE</a>
+                </div>
+
+                <div class="course-option">
+                    <img src="./images/game_pa63b3.jpg" alt="explore gaming" />
+                    <h3>Vivamus sit amet</h3>
+                    <p>
+                        Vivamus a tellus. Pellentesque
+                        habitant morbi tristique senectus et netus.
+                    </p>
+                    <div class="ratings-pricing">
+                        <div class="ratings">
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                            <img src="./images/icon-star.svg" alt="rating" />
+                        </div>
+                        <div class="price">
+                            $30
+                        </div>
+                    </div>
+                    <a href="#" class="btn explore-button">EXPLORE</a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div id="explore" class="explore-courses">
+            <h2><span>Explore Courses</span></h2>
+            <p>
+                Choose from 100,000 video courses with new addition publish every month.
+            </p>
+            <div class="courses">
+                <div class="course-panel">
+
+                    <a href="#" class="v-stack">
+                        <div class="v-1"></div>
+                        <div class="v-2"></div>
+                        <img src="./images/camera.jpg" alt="Photography" class="v-3" />
+                        <div class="v-4">
+                            Photography
+                        </div>
+                    </a>
+
+                    <a href="#" class="v-stack">
+                        <div class="v-1"></div>
+                        <div class="v-2"></div>
+                        <img src="./images/robot.jpg" alt="Artificial intelligence " class="v-3" />
+                        <div class="v-4 ai">
+
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="course-panel">
+
+                    <a href="#" class="v-stack">
+                        <div class="v-1"></div>
+                        <div class="v-2"></div>
+                        <img src="./images/staircase.jpg" alt="Architect" class="v-3" />
+                        <div class="v-4">
+                            Architect
+                        </div>
+                    </a>
+
+                    <a href="#" class="v-stack">
+                        <div class="v-1"></div>
+                        <div class="v-2"></div>
+                        <img src="./images/compass.jpg" alt="Geography " class="v-3" />
+                        <div class="v-4">
+                            Geography
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="course-panel">
+
+                    <a href="#" class="v-stack">
+                        <div class="v-1"></div>
+                        <div class="v-2"></div>
+                        <img src="./images/mountain.jpg" alt="Arts" class="v-3" />
+                        <div class="v-4">
+                            Arts
+                        </div>
+                    </a>
+
+                    <a href="#" class="v-stack">
+                        <div class="v-1"></div>
+                        <div class="v-2"></div>
+                        <img src="./images/piano.jpg" alt="All courses" class="v-3" />
+                        <div class="v-4 all-courses">
+                            <span>ALL CO</span>URSES
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="about-us">
+            <div class="about-image about-top">
+                <img src="./images/about_class.jpg" alt="students learning" />
+            </div>
+            <div class="about-image about-left">
+                <img src="./images/about_learn.jpg" alt="students learning" />
+            </div>
+            <div class="about-image about-bottom">
+                <img src="./images/about_student.jpg" alt="students learning" />
+            </div>
+            <div class="about-thumb thumb-left"></div>
+            <div class="about-thumb thumb-right"></div>
+
+            <div id="about" class="about-content">
+                <h2><span>About u</span>s </h2>
+                <p>
+                    Our mission is to diversify the tech industry
+                    throught accessible education and apprenticeship,
+                    unlocking the door to opportunity and empowering people
+                    to leave their dreams.
+                </p>
+                <a href="#" class="join-button btn">JOIN NOW</a>
+            </div>
+        </div>
+
+
+
+        <div class="testimonials">
+            <h2>T<span>estimonials</span></h2>
+            <p class="quotes">
+                They are doing great things with us.
+            </p>
+
+            <div class="carousel"
+                data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell">
+                    <div class="comment">
+                        <div class="image-45">
+                            <img src="./images/quotes.svg" alt="quotes" />
+                        </div>
+                        <div class="text">
+                            <p>
+                                Maecenas porttitor congue massa.
+                                Ipsum dolor sit amet, consectetuer adipiscing elit.
+                            </p>
+                            <h3>Jovelin Deo</h3>
+                            <small>Senior Graphics Designer </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="comment">
+                        <div class="image-45">
+                            <img src="./images/quotes.svg" alt="quotes" />
+                        </div>
+                        <div class="text">
+                            <p>
+                                Maecenas porttitor congue massa.
+                                Ipsum dolor sit amet, consectetuer adipiscing elit.
+                            </p>
+                            <h3>Jovelin Deo</h3>
+                            <small>Senior Graphics Designer </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="comment">
+                        <div class="image-45">
+                            <img src="./images/quotes.svg" alt="quotes" />
+                        </div>
+                        <div class="text">
+                            <p>
+                                Maecenas porttitor congue massa.
+                                Ipsum dolor sit amet, consectetuer adipiscing elit.
+                            </p>
+                            <h3>Jovelin Deo</h3>
+                            <small>Senior Graphics Designer </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="comment">
+                        <div class="image-45">
+                            <img src="./images/quotes.svg" alt="quotes" />
+                        </div>
+                        <div class="text">
+                            <p>
+                                Maecenas porttitor congue massa.
+                                Ipsum dolor sit amet, consectetuer adipiscing elit.
+                            </p>
+                            <h3>Jovelin Deo</h3>
+                            <small>Senior Graphics Designer </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="comment">
+                        <div class="image-45">
+                            <img src="./images/quotes.svg" alt="quotes" />
+                        </div>
+                        <div class="text">
+                            <p>
+                                Maecenas porttitor congue massa.
+                                Ipsum dolor sit amet, consectetuer adipiscing elit.
+                            </p>
+                            <h3>Jovelin Deo</h3>
+                            <small>Senior Graphics Designer </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="updates">
+            <h2><span>What's updat</span>e?</h2>
+            <p>
+                Up-to-the-minute news, breaking news, video, audio and feature stories.
+            </p>
+            <div class="updates-calendar">
+                <div class="video-container">
+                    <video id="video" controls="controls" nodownload poster="./images/video.jpg" class="video">
+                        <source src="./images/movie.mp4" type="video/mp4">
+                        your browser does not support the video tag
+                    </video>
+                    <ul>
+                        <li class="v-indicator"></li>
+                        <li class="v-indicator"></li>
+                        <li class="v-indicator"></li>
+                        <!--li class="v-indicator"></li-->
+                    </ul>
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <div class="updates-list">
+
+                    <div class="updates-item">
+                        <div class="box-1"></div>
+                        <div class="box-2"></div>
+                        <div class="updates-item-text">
+                            <div class="text-sub">
+                                Science-math
+                            </div>
+                            <div class="text-main">
+                                <p>
+                                    Suspendisse dui scelerisque at vitae, mattis nunc.
+                                </p>
+                                <div class="date-main">
+                                    <div>
+                                        MAR
+                                    </div>
+                                    <div>
+                                        15
+                                    </div>
+                                    <div>
+                                        2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="updates-item">
+                        <div class="box-1"></div>
+                        <div class="box-2"></div>
+                        <div class="updates-item-text">
+                            <div class="text-sub">
+                                Science-math
+                            </div>
+                            <div class="text-main">
+                                <p>
+                                    Suspendisse dui scelerisque at vitae, mattis nunc.
+                                </p>
+                                <div class="date-main">
+                                    <div>
+                                        MAR
+                                    </div>
+                                    <div>
+                                        15
+                                    </div>
+                                    <div>
+                                        2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="updates-item">
+                        <div class="box-1"></div>
+                        <div class="box-2"></div>
+                        <div class="updates-item-text">
+                            <div class="text-sub">
+                                Science-math
+                            </div>
+                            <div class="text-main">
+                                <p>
+                                    Suspendisse dui scelerisque at vitae, mattis nunc.
+                                </p>
+                                <div class="date-main">
+                                    <div>
+                                        MAR
+                                    </div>
+                                    <div>
+                                        15
+                                    </div>
+                                    <div>
+                                        2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="footer">
+        <div class="newsletter-container">
+            <div class="newsletter">
+                <h2>Stay in Touch</h2>
+                <p>
+                    Subscribe to our newsletter stay updated with the latest
+                    developments and offers!
+                </p>
+                <form method="post" action="#">
+                    <input type="text" placeholder="Enter your email address" />
+                    <button role="submit" class="newsletter-submit-button btn">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contacts">
+        <div class="footer-text">
+            <div class="footer-logo">
+                <img src="./images/logo.png" alt="Logo" />
+                <span>OnlineEdu</span>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet Maecenas porttitor congue massa.
+                Fusce posuere.
+            </p>
+            <p>
+                &copy; OnlineEdu 2022
+            </p>
+        </div>
+        <div class="company">
+            <button class="dropdown-button">
+                <span>Company</span>
+                <img src="./images/angle-left-circle.svg" alt="drop down" />
+            </button>
+            <div class="links">
+                <ul>
+                    <li>
+                        <a href="#">Team</a>
+                    </li>
+                    <li>
+                        <a href="#">History</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="#">Locations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="resources">
+            <button class="dropdown-button">
+                <span>Resources</span>
+                <img src="./images/angle-left-circle.svg" alt="drop down" />
+            </button>
+            <div class="links">
+                <ul>
+                    <li>
+                        <a href="#">Resource</a>
+                    </li>
+                    <li>
+                        <a href="#">Resource name</a>
+                    </li>
+                    <li>
+                        <a href="#">Another resource</a>
+                    </li>
+                    <li>
+                        <a href="#">Final resource</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="legal">
+            <button class="dropdown-button">
+                <span>Legal</span>
+                <img src="./images/angle-left-circle.svg" alt="drop down" />
+            </button>
+            <div class="links">
+                <ul>
+                    <li>
+                        <a href="#">Privacy policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms of use</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="socials">
+            <a href="#">
+                <img src="./images/icon-twitter.svg" alt="Follow us on twitter" />
+            </a>
+            <a href="#">
+                <img src="./images/icon-facebook.svg" alt="Link us on facebook" />
+            </a>
+            <a href="#">
+                <img src="./images/icon-linkedin.svg" alt="Follow us on linkedin" />
+            </a>
+            <a href="#">
+                <img src="./images/icon-envelope.svg" alt="Send us a mail" />
+            </a> 
+        </div>
+    </div>
+
+</main>
+
+
+
+
+<!-- Project -->
+<script src="./js/main.js"></script>
+</body>
+</html>

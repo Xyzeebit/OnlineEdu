@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0px" y="0px"
+	width="400.0px" height="300.0px"
+	viewBox="0 0 400.0 300.0"
+	enable-background="new 0 0 400.0 300.0"
+	xml:space="preserve">
+	<path
+		fill="#00BCC1"
+		stroke="#00BCC1"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="3.0"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M17.44,-24.96L334.72,-136.69A30.91 30.91 0 0 1 374.14,-117.80L435.73,57.12A30.91 30.91 0 0 1 416.85,96.53L99.56,208.26A30.91 30.91 0 0 1 60.15,189.37L-1.45,14.45A30.91 30.91 0 0 1 17.44,-24.96z"/>
+</svg>

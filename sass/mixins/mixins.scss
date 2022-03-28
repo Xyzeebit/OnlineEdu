@@ -1,0 +1,59 @@
+$primary-color: #b2d3d8b5;
+$primary-light: 5600BCC1;
+$white: #fff;
+$primary-dark: teal;
+$input-border-color: lightskyblue;
+
+@mixin mobile {
+    @media screen and (max-width: 600px) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media screen and (min-width: 601px) {
+        @content;
+    }
+}
+@mixin border-radius($radius) {
+    border-radius: $radius + px;
+}
+@mixin menu-line($full: true) {
+    height: 3px;
+    background: black;
+    position: absolute;
+    @include border-radius(5);
+    @if($full) {
+        width: 25px;
+    }
+    @if($full == false) {
+        width: 20px;
+    }
+}
+@mixin move-top($pos) {
+    top: $pos + px;
+}
+@mixin move-bottom($pos) {
+    bottom: $pos + px;
+}
+@mixin box-shadow {
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.3);
+}
+@mixin padding($gap: 30px) {
+    padding-left: $gap + px;
+    padding-right: $gap + px;
+}
+@mixin border-radius-specify($tl, $bl, $tr, $br) {
+    border-top-left-radius: $tl + px;
+    border-bottom-left-radius: $bl + px;
+    border-top-right-radius: $tr + px;
+    border-bottom-right-radius: $br + px;
+}
+@mixin border($bt, $br, $bb, $bl, $color) {
+
+    border-top: solid $color $bt + px;
+    border-left: solid $color $bl + px;
+    border-right: solid $color $br + px;
+    border-bottom: solid $color $bb + px;
+
+
+}
