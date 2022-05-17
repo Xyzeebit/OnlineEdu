@@ -1286,27 +1286,23 @@ ol.flickity-page-dots {
 
 @media screen and (min-width: 601px) {
   .updates-calendar {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
   }
 }
 
 @media screen and (min-width: 601px) {
   .video-container {
-    position: absolute;
-    width: 30vw;
-    right: 10vw;
-    top: 20vh;
     border-radius: 30px;
     overflow: hidden;
+    align-self: center;
+    transform: translateX(-100px);
   }
 }
 @media screen and (max-width: 600px) {
   .video-container {
     margin-bottom: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
@@ -1332,6 +1328,9 @@ ol.flickity-page-dots {
     position: relative;
     left: 0;
     right: 0;
+    height: 250px;
+    min-width: 90%;
+    margin: 0 auto;
   }
 }
 .video-container ul {
@@ -1384,6 +1383,7 @@ ol.flickity-page-dots {
     border-bottom-right-radius: 40px;
     padding: 40px 20px 20px 0;
     width: 80vw;
+    align-self: flex-start;
   }
 }
 @media screen and (max-width: 600px) {
@@ -1411,7 +1411,7 @@ ol.flickity-page-dots {
   left: -10px;
   width: 100px;
   height: 100px;
-  background: #FFFFD677;
+  background: #cdede3;
 }
 @media screen and (min-width: 601px) {
   .updates-item .box-1 {
@@ -1617,6 +1617,7 @@ ol.flickity-page-dots {
 }
 .contacts .footer-text span {
   font-weight: 700;
+  font-family: cursive;
 }
 @media screen and (max-width: 600px) {
   .contacts .footer-text span {

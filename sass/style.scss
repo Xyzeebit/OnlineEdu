@@ -1179,7 +1179,7 @@ ol.flickity-page-dots {
 }
 
 //FFFFD677
-$updates-color: #FFFFD677;
+$updates-color: #cdede3;
 
 .updates {
     margin-bottom: 40px;
@@ -1199,28 +1199,27 @@ $updates-color: #FFFFD677;
 .updates-calendar {
     //position: relative;
     @include desktop {
-        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
     }
     //height: 500px;
 
 }
 .video-container {
     @include desktop {
-        position: absolute;
-        //height: 450px;
-        width: 30vw;
-        right: 10vw;
-        top: 20vh;
         border-radius: 30px;
         overflow: hidden;
+        align-self: center;
+        transform: translateX(-100px);
     }
 
     @include mobile {
         margin-bottom: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+//        display: flex;
+//        justify-content: center;
+//        align-items: center;
+//        flex-direction: column;
         position: relative;
         border-radius: 20px;
         overflow: hidden;
@@ -1245,6 +1244,9 @@ $updates-color: #FFFFD677;
             position: relative;
             left: 0;
             right: 0;
+            height: 250px;
+            min-width: 90%;
+            margin: 0 auto;
         }
 
     }
@@ -1302,6 +1304,7 @@ $updates-color: #FFFFD677;
 
         padding: 40px 20px 20px 0;
         width: 80vw;
+        align-self: flex-start;
     }
     @include mobile {
         padding-top: 60px;
@@ -1521,6 +1524,7 @@ $updates-color: #FFFFD677;
         }
         span {
             font-weight: 700;
+            font-family: cursive;
             @include mobile {
                 padding: 10px;
                 color: grey;
